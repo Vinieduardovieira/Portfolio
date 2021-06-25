@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+}
+
+header{ 
+    position: fixed;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.356);
+}
+
+.nav{
+    list-style: none;
+    display: flex;
+}
+  
+.nav li a {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration-line: none;
+    padding: 15px;
+}
+  
+#logo{
+    width: 18%;
+}
+
+body{
+    height: 100vh;
+    width: 100vh;
+    background-image: linear-gradient(to right, #240202, #032c35); 
+}
+
+
+
+#whiteBox {
+    height: auto;
+    width: 30%;
+    background-color: #f8f8ffd3;
+    position: absolute;
+    padding-top: 40px;
+    padding-bottom: 75px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    display: flex;
+    border-radius: 25px;
+    box-shadow: 0px 0px 45px 15px rgb(0, 0, 0); 
+  }
+
+  #myphoto{
+    border-radius: 2500px;
+    width: 200px;
+    align-items: center; 
+    margin-left: 120px;
+    margin-right: 50px;
+}
+
+#boxGrid{
+    display: grid;
+    grid-template-rows: 200px 50px 140px 150px;
+    text-decoration: none;
+    width: auto;
+    height: auto;
+}
+
+#nome {
+    font-style: initial;
+    height:250px; 
+    font-size: 40px;
+    
+}
+
+#container-social{
+    display: flex;
+    margin: 50px;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.wpp{
+}
+
+#contatoWpp{
+
+}
+
+#contatoWpp:hover{
+    color: cadetblue;
+}
+
+#insta, #facebook, #github{
+    font-size: 45px;
+    color: black;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
